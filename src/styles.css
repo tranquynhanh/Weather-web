@@ -1,0 +1,149 @@
+body {
+  font-family: sans-serif;
+  margin: 50px auto;
+}
+
+form {
+  display: flex;
+}
+
+#searchCity {
+  flex: 1;
+  margin-right: 5px;
+  border-radius: 5px;
+}
+
+.body {
+  margin: 15px 0;
+  background: radial-gradient(
+    253px at 12.6% 77.9%,
+    rgb(221, 255, 214) 0.3%,
+    rgb(214, 254, 254) 90.5%
+  );
+}
+
+.container-total {
+  width: 600px;
+}
+
+.total {
+  background: linear-gradient(
+    13.6deg,
+    rgb(80, 154, 175) 11.2%,
+    rgb(125, 216, 199) 59.3%,
+    rgb(245, 255, 195) 92.7%
+  );
+}
+
+.card-body-footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.container-footer {
+  text-align: center;
+}
+
+.weather {
+  font-size: 25px;
+  padding: 5px 0;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 20px;
+  align-items: center;
+}
+
+.temp span {
+  margin: 5px 10px;
+  display: inline-block;
+}
+
+.weather-body {
+  display: flex;
+  justify-content: space-between;
+}
+
+.weather-detail {
+  padding: 8px 0;
+}
+
+.time,
+.date,
+.wind,
+.humid {
+  margin-bottom: 5px;
+}
+
+.footer {
+  background: radial-gradient(
+    253px at 12.6% 77.9%,
+    rgb(221, 255, 214) 0.3%,
+    rgb(214, 254, 254) 90.5%
+  );
+}
+
+.weather-today {
+  margin-left: -30px;
+}
+
+.weather-today img {
+  /* text-align: center; */
+  margin: -5px auto;
+  width: 100px;
+  display: block;
+}
+
+.weather-today p {
+  text-align: center;
+}
+
+.weather-temperature {
+  /* flex: 1; */
+  font-size: 36px;
+  align-self: center;
+  text-align: center;
+  position: relative;
+  top: -20px;
+  right: 25px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.weather-temperature span {
+  margin-right: -5px;
+}
+
+.weather-temperature button {
+  border: none;
+  background-color: transparent;
+  font-size: 30px;
+  padding: 0;
+  font-weight: 300;
+}
+
+.deg, .far {
+  font-size: 18px;
+  text-decoration: none;
+  color: rgb(48, 157, 207);
+}
+
+#seperate {
+  font-size: 18px;
+  /* transform: translateY(-9px); */
+}
+
+#description {
+  text-transform: uppercase;
+}
+
+#btn-group .active {
+  cursor: default;
+  color: rgb(33,33,33);
+}
+
+#btn-group .active:hover {
+  text-decoration: none;
+}
